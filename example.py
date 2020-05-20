@@ -9,9 +9,8 @@ def test_add():
     assert add('space', 'ship') == 'spaceship'
 
 
-def subtract(a, b):
-    assert subtract(5,4) == 1
-    return a + b  # <--- fix this in step 8
+def test_subtract():
+    assert subtract(2, 3) == 1  # <--- fix this in step 8
 
 
 # uncomment the following test in step 5
